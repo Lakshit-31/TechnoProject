@@ -1,0 +1,81 @@
+.reviews-section {
+  padding: 90px 0;
+}
+
+.reviews-container {
+  width: 100%;
+}
+
+.reviews-card {
+  display: flex;
+  gap: 24px;
+}
+
+.reviews-para {
+  color: #ff6b2d;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+}
+.reviews-container h2 {
+  font-size: 52px;
+  margin-bottom: 55px;
+}
+.reviews-first,
+.reviews-second,
+.reviews-third {
+  flex: 1;
+  background: #f7f7f7;
+  padding: 35px;
+  border-radius: 22px;
+  transition: 0.3s;
+}
+.reviews-first:hover,
+.reviews-second:hover,
+.reviews-third:hover {
+  transform: translateY(-10px);
+}
+
+.reviews-first-content,
+.reviews-second-content,
+.reviews-third-content {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #555;
+  margin-bottom: 35px;
+}
+
+.reviews-second-name {
+  color: white;
+}
+
+.reviews-name {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.reviews-name p:first-of-type {
+  font-size: 17px;
+  font-weight: 600;
+  color: #111;
+}
+.reviews-name img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.reviews-name p:last-of-type {
+  font-size: 14px;
+  color: #777;
+}
+@media (max-width: 900px) {
+  .reviews-card {
+    flex-direction: column;
+  }
+
+  .reviews-container h2 {
+    font-size: 38px;
+  }
+}
